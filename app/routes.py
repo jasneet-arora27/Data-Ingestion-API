@@ -25,8 +25,8 @@ def status(ingestion_id: str):
     except KeyError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@router.get("/", response_class=HTMLResponse)
-def root():
+@router.get("/ui", response_class=HTMLResponse)
+def ui():
     return """
     <!DOCTYPE html>
     <html>
