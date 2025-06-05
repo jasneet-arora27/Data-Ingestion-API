@@ -1,40 +1,15 @@
-# Virtual Environment
-venv/
-env/
-ENV/
-
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 .Python
+env/
+venv/
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# Unit test / coverage reports
+# Test / coverage
+.pytest_cache/
 htmlcov/
-.tox/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IDEs and editors
-.idea/
+# IDE
 .vscode/
-*.swp
-*.swo
-.DS_Store
-
-# Local environment variables
-.env
+.idea/
